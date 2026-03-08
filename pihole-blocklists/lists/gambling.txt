@@ -1,0 +1,2 @@
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/gambling-hosts

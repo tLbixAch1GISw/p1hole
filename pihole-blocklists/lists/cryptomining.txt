@@ -1,0 +1,2 @@
+https://zerodot1.gitlab.io/CoinBlockerLists/list.txt
+https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt

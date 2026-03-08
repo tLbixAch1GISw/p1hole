@@ -1,0 +1,47 @@
+# ============================================================
+# Pi-hole Blocklists — Lista completa de URLs
+# Todas las categorías combinadas
+# Actualizado: 2025
+# ============================================================
+
+# ─────────────────────────────────────────────────────────────
+# 🦠 MALWARE / PHISHING
+# ─────────────────────────────────────────────────────────────
+https://urlhaus.abuse.ch/downloads/hostfile/
+https://phishing.army/download/phishing_army_blocklist_extended.txt
+https://raw.githubusercontent.com/tweedge/emerging-threats-pihole/main/targets/malicious.txt
+https://raw.githubusercontent.com/mike-trewartha/Pi-hole-Talos-Threat-Blocklist/refs/heads/main/talos-threats.list
+https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
+
+# ─────────────────────────────────────────────────────────────
+# 🔞 CONTENIDO ADULTO (NSFW)
+# ─────────────────────────────────────────────────────────────
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts
+
+# ─────────────────────────────────────────────────────────────
+# 🎰 GAMBLING / APUESTAS
+# ─────────────────────────────────────────────────────────────
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/gambling-hosts
+
+# ─────────────────────────────────────────────────────────────
+# ⛏️ CRYPTOMINING
+# ─────────────────────────────────────────────────────────────
+https://zerodot1.gitlab.io/CoinBlockerLists/list.txt
+https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt
+
+# ─────────────────────────────────────────────────────────────
+# 📢 PUBLICIDAD / TRACKING / TELEMETRÍA
+# ─────────────────────────────────────────────────────────────
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt
+https://v.firebog.net/hosts/Easylist.txt
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://v.firebog.net/hosts/AdguardDNS.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+
+# ─────────────────────────────────────────────────────────────
+# 🏛️ BASE TODO-EN-UNO
+# ─────────────────────────────────────────────────────────────
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts

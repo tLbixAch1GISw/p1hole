@@ -1,0 +1,2 @@
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts

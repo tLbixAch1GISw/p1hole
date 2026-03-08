@@ -1,0 +1,37 @@
+# ============================================================
+# WHITELIST — Dominios que NO deben bloquearse
+# Agrega aquí dominios que Pi-hole bloquee por error
+# ============================================================
+# Para aplicar esta whitelist ejecuta:
+#   while IFS= read -r line; do
+#     [[ "$line" =~ ^#.*$ || -z "$line" ]] && continue
+#     pihole -w "$line"
+#   done < whitelist.txt
+# ============================================================
+
+# ── Microsoft / Windows Update ────────────────────────────────
+windowsupdate.com
+update.microsoft.com
+download.windowsupdate.com
+ntservicepack.microsoft.com
+
+# ── Apple / iCloud ────────────────────────────────────────────
+lcdn-locator.apple.com
+configuration.apple.com
+gsp-ssl.ls.apple.com
+
+# ── Google Play / Android ─────────────────────────────────────
+android.clients.google.com
+connectivitycheck.gstatic.com
+play.googleapis.com
+
+# ── CDNs populares (pueden fallar apps si se bloquean) ────────
+ajax.googleapis.com
+fonts.googleapis.com
+fonts.gstatic.com
+
+# ── Otros comunes ─────────────────────────────────────────────
+# Descomenta los que necesites:
+# cdn.jsdelivr.net
+# raw.githubusercontent.com
+# api.github.com
