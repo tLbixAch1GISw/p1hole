@@ -1,0 +1,9 @@
+.Xauthority
+.bash_*
+.bashrc
+.bash_logout
+.profile
+.sudo_as_admin_successful
+*.log
+*.tmp
+.DS_Store
